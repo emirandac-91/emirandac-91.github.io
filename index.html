@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <title>Desafio Encriptador</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="C:\Users\SISTEMAS\Documents\desafio\imagenes\logo.png" alt="logo principal" class="logo">
+        </header>
+        <main>
+            <!- BLOQUE DE ENTRADA DE TEXTO................. ->
+            <section id="entrada">
+                <div>
+                    <textarea  class="text-area-entrada" cols="70" rows="10" required placeholder="Escriba aqui mensaje a emcriptar sin mayusculas ni tildes"></textarea>
+                </div>
+                <div>
+                <button class="btn-emcriptar" onclick="btnEncriptar()">Emcriptar</button>
+                <button class="btn-desemcriptar" onclick="btnDesencriptar()">Desemcriptar</button>
+                </div>          
+            </section>
+
+            <!- BLOQUE DE ENTRADA SALIDA DE TEXTO................. ->
+            <section id="salida">
+                <div>
+                    <textarea class="text-area-salida" cols="70" rows="10" ></textarea>
+                </div>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+                </div>   
+            </section>
+        </main>
+        <script src="/script.js" ></script>
+     </body>
+</html> 
