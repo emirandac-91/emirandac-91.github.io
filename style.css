@@ -1,6 +1,9 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-size: 22px;
+    line-height: 130%;
+    
 }
 
 body{
@@ -20,24 +23,25 @@ header{
 }
 
 main{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 section{
-    height:96%;
     padding: 1%;
     margin: 1%;
     background-color: white;
 }
 
 textarea{
-    height: 500px;
+    width: 98%;
     border: none;
     color: #06089e;
     margin: 2px;
     padding: 2px;   
+    text-transform: lowercase;
 }
 
 button{
