@@ -1,10 +1,10 @@
 *{
-    background:#9b9ca0;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 32px;
-    overflow-y: hidden;
+    padding: 0px;
+    margin: 0px;
+}
 
+body{
+    background-color: #ededed;
 }
 
 img.logo{
@@ -21,9 +21,34 @@ header{
 
 main{
     display: flex;
-    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section{
+    height:96%;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
 }
 
 textarea{
-    max-width: 80%;
+    height: 500px;
+    border: none;
+    color: #06089e;
+    margin: 2px;
+    padding: 2px;   
+}
+
+button{
+    background-color: #063670;
+    border: 1px solid #06356e;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
+
+button.btn-copiar{
+    background-color: red;
 }
