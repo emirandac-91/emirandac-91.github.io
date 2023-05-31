@@ -44,6 +44,12 @@ textarea{
     text-transform: lowercase;
 }
 
+.text-area-salida{
+    background: white;
+    background-image: url("./imagenes/IMGencritada.png");
+    background-repeat: no-repeat;   
+}
+
 button{
     background-color: #063670;
     border: 1px solid #06356e;
